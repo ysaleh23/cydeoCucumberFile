@@ -56,7 +56,7 @@ Feature: Some of the general functionality verifications
       | quantity | customerName   | streetAddress       | cityName      | state        | zipCode | cardType         | creditCardNumber | expDate | expectedCustomerName |
       | 3        | John Doe       | 21 Jump Street      | Chicago       | Illinois     | 60601   | Mastercard       | 1111222233334444 | 07/26   | John Doe             |
       | 4        | Mike Jordan    | 23 Jump Street      | Chicago       | Illinois     | 60601   | Mastercard       | 1111222233334444 | 02/26   | Mike Jordan          |
-      | 5        | John Hancock   | 14 E. Pens Street   | Pittsburgh    | Pennsylvania | 23456   | Visa             | 1111222233334444 | 01/25   | John cock         |
+      | 5        | John Hancock   | 14 E. Pens Street   | Pittsburgh    | Pennsylvania | 23456   | Visa             | 1111222233334444 | 01/25   | John Hancock         |
 #      | 18       | Steven Jackson | 7th Hollywood Blvd. | Hollywood     | Florida      | 12345   | American Express | 1111222233334444 | 10/28   | Steven Jackson       |
 #      | 1        | James Donald   | 456 S. Disney Ave   | Anaheim       | California   | 00002   | Visa             | 1111222233334444 | 07/26   | James Donald         |
 #      | 340      | Donald Trump   | 1st Trump Ave.      | New York City | New York     | 00003   | American Express | 1111222233334444 | 09/29   | Donald Trump         |

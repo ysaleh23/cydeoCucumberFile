@@ -10,12 +10,13 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {
                 "html:target/cucumber-reports.html",
-                "rerun:target/rerun.txt"
+                "rerun:target/rerun.txt",
+                "me.jvt.cucumber.report.PrettyReports:target/cucumber"
         },
         features = "src/test/resources/features",
         glue = "com/cydeo/step_definitions",
         dryRun = false,
-        tags = "@webTableGeneral and @customerPaymentInformation_Test1",
+        tags = "@vyTrackTask3",
         publish = true
 
 )
